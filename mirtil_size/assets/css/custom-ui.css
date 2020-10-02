@@ -1,0 +1,198 @@
+/*CSS LUMISE ADVANCED*/
+
+#lumise-product #lumise-cart-wrp .lumise-cart-options .lumise-prints {
+    border-bottom: none;
+}
+.lumise-cart-options .lumise-prints .lumise_form_group .lumise_form_content .lumise-desc {
+    width: inherit !important;
+    text-align:center;
+}
+#lumise-cart-wrp .lumise_form_content {
+    padding: 0px 0px 14px 0px;
+}
+.lumise-prints .lumise_radios .lumise-radio {
+    width: 100%;
+    margin: 0 3px 1px 0;
+}
+#lumise-product .lumise-prints .lumise_form_group .lumise_form_content input:checked + label {
+    box-shadow: 0px 0px 20px 0 rgb(0, 0, 0, 1) !important;
+    border-color: #ffffff !important;
+}
+.lumise-cart-options .lumise-prints .lumise_form_group .lumise_form_content label {
+    border: 1px solid transparent;
+}
+.lumise-cart-options .lumise-prints .lumise_form_group .lumise_form_content label:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.lumise_form_group .lumise_form_content {
+    max-width: 100% !important;
+}
+.lumise-cart-options .lumise-prints .lumise_form_group .lumise_form_content label span{
+    padding: 4px 6px 4px 3px;
+}
+.lumise-prints .lumise_radios .lumise-radio {
+    width: 137px;
+    margin: 0 0px 1em 20px;
+}
+.lumise-cart-option-thumb {
+    width: 135px;
+}
+.lumise-cart-option-thumb img {
+    border: none;
+    border-radius: 0;
+}
+
+div#LumiseDesign div#lumise-navigations ul[data-block],div#LumiseDesign div#lumise-navigations ul[data-block]:hover {
+    color: #333;
+}
+div#LumiseDesign div#lumise-navigations{
+    background-color: #ffffff !important;
+}
+div#LumiseDesign div#lumise-navigations ul[data-block]>li[data-view="sp"] {
+    background: rgba(207, 210, 214, 0.47);
+}
+div#LumiseDesign div#lumise-navigations ul[data-block="right"] .lumise-price {
+    color: #212121;
+}
+div#LumiseDesign div#lumise-navigations a[data-view="logo"] img {
+    width: 200px;
+    height: auto;
+    margin: 16px 10px 0px 14px;
+}
+div#LumiseDesign div#lumise-navigations{
+    height: 85px !important;
+    padding: 12px 0;
+}
+div#LumiseDesign div#lumise-workspace {
+    margin: 91px 0 0 0;
+}
+div#lumise-top-tools {
+    background: #f4f4f4;
+    top: 85px;
+}
+div#LumiseDesign div#lumise-left {
+    top: 85px;
+}
+.lumise_form_group .lumise_form_content {
+    max-width: 220px;
+}
+#lumise-cart-wrp .lumise_form_content {
+    padding: 0px 0px 14px 5px;
+}
+
+a.lumise-button.lumise-list-button, cart-btn-below-img .woo-buttons a {
+    color: #ffffff;
+    background-color: #1ebbf0 !important;
+    background: #1ebbf0 !important;
+    border-radius: 6px !important;
+    padding: 12px 20px 12px 20px !important;
+    font: 14px / 16px "Roboto", Helvetica, Arial, Verdana, sans-serif !important;
+}
+.lumise-cart-options .lumise-cart-field.how-calculate {
+    display: none;
+}
+div#LumiseDesign input {
+    font-family: "Roboto", Arial;
+    font-size: 16px;
+}
+input.lumise-cart-param {
+    max-width: 80px;
+}
+/** ============================ **/
+ul.lumise-product-color li[data-color]{
+    width: 66px;
+    height: 50px;
+    background-size: contain;
+    border-radius: 6px;
+    border: 1px solid rgb(62, 70, 82);
+    margin: 0 10px 8px 0;
+    opacity: 0.8;
+}
+ul.lumise-product-color li[data-color]:hover{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+body #LumiseDesign ul.lumise-product-color li[data-color].choosed {
+    box-shadow: 0px 0px 20px 0 rgb(0, 0, 0, 1);
+    border: 1px solid #ffffff;
+    background-size: contain;
+    background-image: none;
+    opacity: 1;
+}
+ul.lumise-product-color li[data-color=""]{
+    display:none;
+}
+
+
+.lumise-cart-options div.lumise-cart-field.field-inline:not([data-type="text"]) .lumise_form_group>.lumise_form_content {
+    padding: 0 5px 10px 25px !important;
+}
+.lumise-cart-options div.lumise-cart-field.field-inline:not([data-type="text"]) .lumise_form_group>.lumise-cart-field-label{
+    display: flex !important;
+}
+.lumise-cart-options div.lumise-cart-field.field-inline:not([data-type="text"]) .lumise_form_group {
+    display: block !important;
+}
+
+li[data-color="#gggggg"] {
+    background-image: url(https://mirtil.com/wp-content/uploads/2019/02/gold.png)!important;
+}
+li[data-color="#ssssss"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/argent.png") !important;
+}
+li[data-color="#ardois"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/ardoise.png") !important;
+}
+li[data-color="#pppppp"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/phosphp.png") !important;
+}
+li[data-color="#mmmmmm"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/mirroir.png") !important;
+}
+li[data-color="#flyfly"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/fluojaune.png") !important;
+}
+
+
+
+li[data-color="#transp"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/transparent.png") !important;
+}
+li[data-color="#square"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/carre.png") !important;
+}
+li[data-color="#diecut"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/die-cut-1.png") !important;
+}
+
+
+li[data-color="#qqqqqq"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/quadri-2.png") !important;
+}
+
+
+
+li[data-color="#b8860b"] {
+    background-image: url(https://mirtil.com/wp-content/uploads/2019/02/or.png)!important;
+}
+li[data-color="#c0c0c0"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/argent-1.png") !important;
+}
+li[data-color="#98fb98"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/phospho-1.png") !important;
+}
+li[data-color="#e0ffff"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/mirroir-2.png") !important;
+}
+li[data-color="#2f4f4f"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/ardoise-3.png") !important;
+}
+li[data-color="#fffb87"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/fluo.png") !important;
+}
+li[data-color="#ff7900"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02/fluo-o.png") !important;
+}
+li[data-color="#00fd00"] {
+    background-image: url("https://mirtil.com/wp-content/uploads/2019/02//fluo-v.png") !important;
+}

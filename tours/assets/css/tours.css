@@ -1,0 +1,389 @@
+
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav {
+    padding: 0 0 5px 0;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav header{
+    margin-bottom: 10px;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li {
+    display: flex;
+    cursor: default;
+    min-width: 390px;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav .lumise-switch{
+    margin: 12px 0 0 10px;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav .lumise-switch input{
+    margin: 0px;
+    height: 28px;
+}
+
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav label {
+    float: left;
+    white-space: nowrap;
+    margin: 8px 0 0 20px;
+    font-size: 14px;
+    min-width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav input+label {
+    min-width: 0px;
+    margin-left: 2px;
+    height: auto;
+    line-height: 22px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav select, 
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav input {
+    height: 36px;
+    font-size: 14px;
+    margin: 8px 10px;
+    outline: none;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    min-width: 240px;
+    line-height: 36px;
+    border-radius: 2px;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav input[type="radio"] {
+    margin: 6px 5px 10px 12px;
+    height: auto;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li button {
+    margin: 10px 10px 5px 5px;
+    float: right;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] {
+	display: inline-block;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul{
+    margin: 10px 0px 5px 0px;
+    padding: 0px 2px 0 5px;
+    width: 100%;
+    min-height: 40px;
+    text-align: left;
+    background: #eee;
+    display: inline-block;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul li {
+	float: left;
+	min-width: auto;
+	cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 3px;
+    position: relative;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul li[data-tour][data-active="true"]{
+	z-index: 2;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul li[data-tour] i{
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 100%;
+	padding: 1px;
+	background: red;
+	display: none;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul li[data-tour][data-active="true"] i{
+	display: inline-block;
+	opacity: 0;
+	transition: opacity ease 250ms;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul li[data-tour][data-active="true"]:hover i{
+	opacity: 1;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul li:hover {
+	color: #000;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul li:last-child {
+    padding: 8px;
+    line-height: 28px;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul li:last-child i{
+    font-size: 18px;
+    float: left;
+    margin-bottom: -3px;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] ul li[data-active="true"] {
+	background: #272c33;
+    padding: 6px 14px;
+    margin-top: 4px;
+    color: #eee;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] textarea {
+	width: 90%;
+    height: 120px;
+    font-size: 14px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] p{
+	display: flex;
+	margin: 0px;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] p[data-view="content"] {
+	display: inline-block;
+	width: 100%;
+	padding-top: 5px;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] p[data-view="btns"] {
+	text-align: right;
+    display: inline-block;
+    width: 90%;
+    padding: 10px 0;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] p[data-view="btns"] a {
+	display: inline-block;
+	text-decoration: none;
+	margin: 10px 0;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] p[data-view="btns"] a[href="#delete"] {
+	color: red !important;
+    border: 1px solid #ff000057;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] p[data-view="btns"] a[href="#delete"]:hover {
+	border-color: red;
+}
+div#LumiseDesign div#lumise-navigations #lumise-tours-nav li[data-row="current"] p[data-view="btns"] button {
+	margin-right: 0px;
+}
+.lumise-tour-wrp, .lumise-tour-wrp-start {
+	position: fixed;
+	min-height: 50px;
+	min-width: 280px;
+	background: #fff;
+	box-shadow: 5px 5px 30px 0 rgba(0,0,0,0.5);
+	z-index: 10000000000;
+	font-family: "Roboto", Arial;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.lumise-tour-wrp:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-right: 10px solid #fff;
+}
+.lumise-tour-wrp-start:after {
+	display: none;
+}
+.lumise-tour-wrp[data-arr="tl"]:after {
+    top: -20px;
+    left: 20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="tc"]:after {
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="tr"]:after {
+    top: -20px;
+    left: auto;
+    right: 20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="lt"]:after {
+    top: 20px;
+    left: -20px;
+    border: 10px solid transparent;
+    border-right: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="lc"]:after {
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    border: 10px solid transparent;
+    border-right: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="lb"]:after {
+    top: auto;
+    left: -20px;
+    bottom: 20px;
+    border: 10px solid transparent;
+    border-right: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="bl"]:after {
+    top: auto;
+    left: 20px;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="bc"]:after {
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="br"]:after {
+    top: auto;
+    left: auto;
+    right: 20px;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="rt"]:after {
+    top: 20px;
+    left: auto;
+    right: -20px;
+    border: 10px solid transparent;
+    border-left: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="rc"]:after {
+    top: 50%;
+    left: auto;
+    right: -20px;
+    transform: translateY(-50%);
+    border: 10px solid transparent;
+    border-left: 10px solid #fff;
+}
+.lumise-tour-wrp[data-arr="rb"]:after {
+    top: auto;
+    bottom: 20px;
+    left: auto;
+    right: -20px;
+    border: 10px solid transparent;
+    border-left: 10px solid #fff;
+}
+.lumise-tour-content {
+	display: inline-block;
+	max-width: 350px;
+	max-height: 350px;
+	overflow: auto;
+	margin: 14px;
+	color: #333;
+}
+.lumise-tour-wrp foot {
+    display: block;
+    width: 100%;
+    padding: 10px 14px;
+    text-align: right;
+    box-sizing: border-box;
+    background: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 52px;
+}
+.lumise-tour-wrp foot i{
+    float: left;
+    color: #fff;
+    margin-top: 0px;
+    font-size: 14px;
+    border: 1px solid #ffffff8a;
+    border-radius: 30px;
+    padding: 8px;
+}
+.lumise-tour-wrp foot a{
+	display: inline-block;
+	text-decoration: none; 
+	box-sizing: border-box;
+}
+.lumise-tour-wrp foot a[href="#dismiss"]{
+	color: #ffffff;	
+	line-height: 34px;
+	opacity: 0.75;
+}
+.lumise-tour-wrp foot a[href="#dismiss"]:hover{
+	opacity: 1;
+}
+.lumise-tour-wrp foot a[href="#next"]{
+    background: #454b53;
+    padding: 6px 18px;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+    transition: background ease 250ms;
+}
+.lumise-tour-wrp foot a[href="#next"]:hover{
+    background: #272c33;
+}
+
+.lumise-tour-wrp-start {
+	background: #263238;
+	width: 500px;
+	max-width: 90%;
+    left: 50%;
+    top: 50%;
+    -webkit-font-smoothing: antialiased;
+	transform: translateX(-50%) translateY(-50%);
+}
+.lumise-tour-wrp-start .lumise-tour-content {
+    text-align: center;
+    color: #fff;
+    margin: 30px 20px 20px 20px;
+    width: calc(100% - 40px);
+    max-width: 100%;
+    font-size: 16px;
+}
+.lumise-tour-wrp-start .close {
+    color: #ffffffad;
+    font-size: 24px;
+    background: #263238;
+    border-radius: 90px;
+    position: absolute;
+    right: -11px;
+    top: -11px;
+    cursor: pointer;
+    padding: 2px;
+    transition: color ease 250ms;
+    float: left;
+    text-align: center;
+}
+.lumise-tour-wrp-start .close:hover {
+	color: #fff;
+}
+.lumise-tour-wrp-start foot {
+	background: transparent;
+	text-align: center;
+    padding: 0 20px;
+    display: inline-block;
+    height: auto;
+}
+.lumise-tour-wrp-start foot p{
+	width: 100%;
+    display: inline-block;	
+    color: rgba(255, 255, 255, 0.35);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.lumise-tour-wrp-start foot a{
+	background: #646d71;
+    border-radius: 3px;
+    padding: 0px 20px;
+    margin: 0 5px;
+    height: 36px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 36px;
+    opacity: 0.85;
+    text-transform: uppercase;
+    transition: opacity ease 250ms;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+}
+.lumise-tour-wrp-start foot a:hover{
+	opacity: 1;
+}

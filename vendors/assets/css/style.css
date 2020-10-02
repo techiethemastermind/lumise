@@ -1,0 +1,94 @@
+#lumise-template-page .lumise_form_group {
+	display: inline-block;
+	width: 100%;
+	margin: 10px 0;
+}
+#lumise-template-page .lumise_form_group>span{
+	float: left;
+	width: 25%;
+}
+#lumise-template-page .lumise_form_group>.lumise_form_content {
+	float: left;
+	width: 75%;
+}
+
+.lumise_form_group .img-preview {
+    float: left;
+    width: 100%;
+}
+
+.lumise_form_group .img-preview img {
+    padding: 5px;
+    border: 1px solid #ddd;
+    max-width: 100%;
+    margin-bottom: 10px;
+    background: #eee;
+    display: block;
+}
+#lumise-logo-preview {
+    max-width: 250px;
+}
+.lumise_form_group .img-preview input[type="file"][data-file-input] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.lumise_form_group .img-preview [data-file-delete="true"] {
+    width: auto;
+    color: #fff;
+    cursor: pointer;
+	margin: 0;
+    padding: 4px 20px;
+    background: #eee;
+    font-weight: 400;
+    border-radius: 3px;
+    background: #E7505A;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+}
+
+.lumise_form_group .img-preview label {
+    margin-right: 10px;
+    cursor: pointer;
+    float: left;
+    padding: 4px 20px;
+    background: #4DB6AC;
+    color: #fff;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+}
+.lumise_message {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #468847;
+    background: #DFF0D8;
+    padding: 5px 15px;
+    border-radius: 2px;
+    border: 1px solid #8c8c8c29;
+}
+
+.lumise_message.err {
+    background: #FDEAEA;
+    color: #E7505A;
+}
+
+.lumise_message.noti {
+    background: #f9f5d5;
+    color: #53585a;
+}
+
+.lumise_message em {
+    font-style: normal;
+}
+em.lumise_err{
+    display: block;
+}
+

@@ -1,0 +1,122 @@
+#lumise-mirtil_images {
+    overflow-y: hidden !important;
+}
+
+#lumise-mirtil_images .mirtil-images {
+    display: none;
+}
+#lumise-mirtil_images .mirtil-images.active {
+    display: block;
+}
+
+#lumise-mirtil_images header>button {
+    margin: 10px 0px;
+    text-transform: inherit;
+    font-weight: normal;
+    font-size: 15px;
+    width: 50%;
+    white-space: nowrap;
+    float: left;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    background: #eee;
+    outline: none !important;
+}
+
+#lumise-mirtil_images>header {
+    display: inline-block;
+    margin: 10px 20px 0;
+    width: calc(100% - 40px);
+    border-top: none;
+}
+#lumise-mirtil_images header>button:first-child {
+    width: 25%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#lumise-mirtil_images header>button {
+    width: calc(25% - 1px);
+    margin-left: 1px;
+    padding: 8px 0px;
+}
+#lumise-mirtil_images header>button:last-child {
+    border-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#lumise-mirtil_images header button.active, #lumise-mirtil_images header button:hover {
+	background-color: #039be5 !important;
+	color: #eee;
+    position: relative;
+}
+#lumise-mirtil_images header button.active:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -16px;
+    border: 8px solid transparent;
+    border-top: 8px solid #039be5;
+    transform: translateX(-50%);
+}
+
+#lumise-left #lumise-upload-list ul.lumise-list-items {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: inline-block;
+}
+#lumise-left #lumise-upload-list ul.lumise-list-items li {
+    float: left;
+    width: calc(50% - 4px);
+    height: 120px;
+    text-align: center;
+    background-color: #fff;
+    margin: 0px 6px 6px 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-size: 32px;
+    transition: all 250ms ease;
+    opacity: .75;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 3px;
+}
+
+#lumise-mirtil_shapes ul.lumise-list-items {
+    margin: 0px;
+    padding: 0px;
+}
+
+#lumise-mirtil_shapes li.lumise-clipart:nth-child(5n+1) {
+    clear: both;
+}
+#lumise-mirtil_shapes li.lumise-clipart {
+    width: 17%;
+    margin-right: 3%;
+    float: left;
+    list-style: none;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+#lumise-mirtil_shapes li svg {
+    transition: fill 250ms ease;
+    fill: #aaa;
+}
+#lumise-mirtil_shapes .lumise-tab-body {
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+#lumise-mirtil_drawing {
+    position: relative !important;
+}
+#lumise-left #lumise-mirtil_upload ul.lumise-list-items li:nth-child(2n) {
+    margin-right: 0px;
+}

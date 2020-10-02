@@ -1,0 +1,312 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 111; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .modal .alertModal_close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+}
+  
+  .modal .alertModal_close:hover, .modal .alertModal_close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* .lumise-stage-settings img.lumise-stage-image{
+    max-width: unset;
+  } */
+
+#lumise_template_clipart_shortcode{
+  padding: 0;
+}
+.lumise_addon_tc_tabs{
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.data-tab-content-clipart,
+.data-tab-content-template{
+  background: #eee;
+  float: left;
+  max-width: 100%;
+  padding: 40px 20px;
+}
+/*.data-tab-content-clipart ul li,
+.data-tab-content-template ul li{
+  cursor: pointer;
+}*/
+.data-tab-content-clipart ul > li:hover > span,
+.data-tab-content-template ul > li:hover > span,
+.data-tab-content-clipart ul > li span.active,
+.data-tab-content-template ul > li span.active{
+  color: #191919;
+  text-decoration: underline;
+}
+.lumise_addon_tc_tabs>ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lumise_addon_tc_tabs>ul li {
+  flex: 1;
+
+}
+.lumise_addon_tc_tabs ul{
+  float: left;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.lumise_addon_tc_tabs > ul > li{
+  width: auto !important;
+}
+.lumise_addon_tc_tabs ul li{
+  list-style: none;
+  position: relative;
+  float: left;
+  width: 100%;
+  line-height: 30px;
+  cursor: pointer;
+}
+.lumise_addon_tc_tabs ul li ul{
+  padding-left: 15px;
+}
+.lumise_addon_tc_tabs ul li span{
+  float: left;
+  width: 100%;
+  cursor: pointer;
+}
+.lumise_addon_tc_tabs ul li span.list_icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.lumise_addon_tc_tabs > ul > li{
+  float: left;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-weight: 700;
+  color: #191919;
+}
+.lumise_addon_tc_tabs > ul > li.active{
+  background: #eee;
+}
+.lumise_addon_tc_tabs select{
+  float: left;
+  width: 100%;
+  height: 38px;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+.lumise-addon-shortcode-tc-pagination{
+  float: left;
+  width: 100%;
+}
+.lumise-addon-shortcode-tc-pagination ul{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.lumise-addon-shortcode-tc-pagination ul li{
+  cursor: pointer;
+  font-weight: 400;
+  margin: 0;
+  border: 1px solid #e3e3e3;
+  line-height: 35px;
+  width: 40px;
+  text-align: center;
+  border-radius: 1px;
+  color: #999;
+  margin: 0 5px 10px 5px;
+  list-style: none;
+
+}
+.lumise-addon-shortcode-tc-pagination ul li.active,
+.lumise-addon-shortcode-tc-pagination ul li:hover{
+  background: #e3e3e3;
+  color: #191919;
+}
+.lumise-addon-shortcode-tc-list{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.lumise-addon-shortcode-tc-list > img {
+  width: 100px;
+  padding: 30px 0;
+  display: inline-block;
+}
+.lumise-addon-shortcode-tc-list img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+.lumise-addon-shortcode-tc-list div a{
+  display: flex;
+  justify-content: center;
+}
+.lumise-addon-shortcode-tc-search{
+  float: left;
+  width: 100%;
+  margin-bottom: 42px;
+}
+.lumise-addon-shortcode-tc-search input{
+  float: right;
+  border: 1px solid #e3e3e3;
+  max-width: 280px;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 38px;
+}
+.lumise-addon-shortcode-tc-sm-2{
+  float: left;
+  width: 18%;
+  margin-bottom: 25px;
+  margin-right: 2.5%;
+}
+.lumise-addon-shortcode-tc-sm-3{
+  float: left;
+  max-width: 22%;
+  margin-bottom: 25px;
+  margin-right: 2.6%;
+}
+.lumise-addon-shortcode-tc-sm-4{
+  float: left;
+  width: 31%;
+  margin-bottom: 25px;
+  margin-right: 3.5%;
+}
+.lumise-addon-shortcode-tc-sm-6{
+  float: left;
+  width: 48%;
+  margin-bottom: 25px;
+  margin-right: 4%;
+}
+.data-tab-content-clipart, .data-tab-content-template{
+  display: none;
+}
+.data-tab-content-clipart.active, .data-tab-content-template.active{
+  display: block;
+}
+.hidden_submenu{
+  display: none;
+}
+.list_icon{
+  cursor: pointer;
+}
+.lumise_shortcode-tc-listing > input,
+.lumise_shortcode-tc-listing > br,
+.lumise_shortcode-tc-listing > p{
+  display: none;
+}
+
+/*Responsive*/
+@media screen and (min-width: 768px) {
+  .lumise-addon-shortcode-tc-sm-2:nth-of-type(5n),
+  .lumise-addon-shortcode-tc-sm-3:nth-of-type(4n){
+    margin-right: 0;
+  }
+  .lumise-addon-shortcode-tc-sm-3:nth-child(4n+1) {
+    clear: left;
+  }
+}
+@media screen and (max-width: 767px) {
+  .lumise-addon-shortcode-tc-col-md-3 {
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .lumise-addon-shortcode-tc-col-md-9 {
+    -ms-flex: 0 0 66.67%;
+    flex: 0 0 66.67%;
+    max-width: 66.67%;
+  }
+  .lumise-addon-shortcode-tc-sm-3 {
+    max-width: 29%;
+    margin-right: 3.6%;
+  }
+  .lumise-addon-shortcode-tc-sm-3:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  .data-tab-content-clipart, .data-tab-content-template {
+    padding: 30px 10px;
+  }
+  .lumise-addon-shortcode-tc-sm-3:nth-child(3n+1) {
+    clear: left;
+  }
+}
+@media screen and (max-width: 576px) {
+   .lumise-addon-shortcode-tc-col-md-3 {
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .lumise-addon-shortcode-tc-col-md-9 {
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .lumise-addon-shortcode-tc-sm-3 {
+    max-width: 48%;
+    margin-right: 3.6%;
+  }
+   .lumise-addon-shortcode-tc-sm-3:nth-of-type(3n) {
+    margin-right: 3.6%;
+   }
+  .lumise-addon-shortcode-tc-sm-3:nth-of-type(2n) {
+    margin-right: 0;
+  }
+  /* .lumise-addon-shortcode-tc-pagination ul li {
+
+  } */
+  .lumise-addon-shortcode-tc-sm-3:nth-child(2n+1) {
+    clear: left;
+  }
+}
+
+.lumise-addon-shortcode-tc-nav ul {
+  display: inherit;
+}
+.lumise-addon-shortcode-tc-nav ul li.lumise_addon_tc_tabs_title {
+  padding: 5px 30px;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+}
+.lumise-addon-shortcode-tc-nav .data-tab-content-clipart.active, .lumise-addon-shortcode-tc-nav .data-tab-content-template.active {
+  position: absolute;
+  top: 40px;
+  max-width: inherit;
+}

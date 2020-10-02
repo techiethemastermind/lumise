@@ -1,0 +1,26 @@
+#lumise-left #lumise-uploads>header>button {
+	width: calc(25% - 1px);
+	margin-left: 1px;
+	padding: 8px 0px;
+}
+#lumise-left #lumise-uploads>header>button:first-child {
+    width: 25%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#lumise-left #lumise-uploads header .lumise-xitem-categories button:hover {
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    background-color: transparent !important;
+}
+div#lumise-left .lumise-tab-body-wrp div#lumise-images-library header.lumise-xitems-header {
+	padding-top: 10px;
+}
+.lumise-tab-body-wrp.lumise-x-thumbn #lumise-images-list.lumise-xitems-list {
+	max-height: calc(100vh - 238px);
+}
+div#lumise-left #lumise-uploads.lumise-tab-body-wrp header.lumise-xitems-header {
+	padding-top: 14px;
+}
+#lumise-left #lumise-uploads div[data-tab]{
+    height: calc(100vh - 140px);
+}
